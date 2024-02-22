@@ -10,7 +10,7 @@ main {
    }
 
 header{
-    background-color: black;
+    background-color: rgb(3, 27, 79);
     color:white;
     height:100px;
     display: flex;
@@ -42,9 +42,34 @@ article li{
 
 article a{
     text-decoration: none;
-    color:black;
+    color:blue;
 }
 
 article li:hover {
     background-color:pink;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+section > h1{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+section> div{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px dotted gray;
+    padding: 20px;
+    margin : 10px;
+
 }
