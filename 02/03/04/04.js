@@ -15,10 +15,6 @@ const handleClick =() => {
     img.setAttribute("src",`./img/${randomNum1}.png`);
     console.log("click",randomNum1)
 }
-   
-
-
-
 
 /*
     함수작성 1
