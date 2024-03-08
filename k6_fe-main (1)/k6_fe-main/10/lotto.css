@@ -1,0 +1,63 @@
+
+section span{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid rgb(252, 248, 248);
+    font-weight: bold;
+}
+
+section>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#numDisp{
+    margin: 10px 20px;
+}
+
+.sp0{
+    background-color: rgb(130, 6, 6);
+    color:white;
+}
+
+.sp1{
+    background-color: rgb(194, 113, 14);
+    color:white;
+}
+
+.sp2{
+    background-color: rgb(227, 227, 71);
+    color:white;
+}
+
+.sp3{
+    background-color: rgb(2, 107, 2);
+    color:white;
+}   
+
+.sp4{
+    background-color: rgb(4, 4, 161);
+    color:white;
+    
+}
+.sp5{
+    background-color: rgb(222, 222, 222);
+    color:rgb(5, 5, 5);
+    
+}
+
+button{
+    background-color: gray;
+    color:white;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border:none;
+}
+

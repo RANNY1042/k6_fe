@@ -1,0 +1,14 @@
+p{
+    font-family: "helvetica nenue", Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    border : 2px solid rgb(0 0 200);
+    background : rgb(00,0,200);
+    color: rgb(255 255 255);
+    box-shadow: 1px 1px 2px rgb(0 0 200);
+    border-radius: 10px;
+    display : inline-block;
+    cursor: pointer;
+
+}
