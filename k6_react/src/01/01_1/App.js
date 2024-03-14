@@ -1,16 +1,21 @@
 
 import './App.css';
-// import MainHeader from './01/MainHeader';
-// import Hello from './01/Hello';
-import MyClock from './01/01_1/MyClock';
+import MainHeader from './01/MainHeader';
+import Hello from './01/Hello';
 
 
 function App() {
   return (
     <> 
     <div className="App">
-      <MyClock></MyClock>
-     
+      <MainHeader></MainHeader>
+      <Hello></Hello>
+      <Hello></Hello>
+      <MainHeader></MainHeader>
+      <Hello></Hello>
+      <Hello></Hello>
+      
+      
     </div>
     </> //프레그먼트 태그
   );
