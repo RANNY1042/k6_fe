@@ -1,18 +1,42 @@
 
 import './App.css';
-// import MainHeader from './01/MainHeader';
-// import Hello from './01/Hello';
-import MyClock from './01/01_1/MyClock';
-
+import MainHeader from './01/MainHeader';
+import Hello from './01/Hello';
+import HelloCss from './02/HelloCss';
 
 function App() {
   return (
-    <> 
-    <div className="App">
-      <MyClock></MyClock>
+
+    <div className='flex flex-col 
+                    w-full max-w-screen-xl
+                    h-screen
+                    mx-auto
+                    overscroll-auto
+                    '>
+       <header className='flex justify-between items-center
+                          h-20
+                          p-10
+                          text-xl font-bold text-yellow-900
+                          bg-amber-300
+                          '>
+          <div>리액트 실습</div>
+          <div>홈</div>
+       </header>
+       <main className='grow'>
+       <HelloCss/>
+       </main>
+       <footer className='flex justify-center items-center
+                        h-10
+                        p-10
+                        text-xs font-thin text-white
+                        bg-black
+                        '>                 
+        풋터풋터풋터풋터풋터풋터풋터
+       </footer>
      
     </div>
-    </> //프레그먼트 태그
+    
+    //</> //프레그먼트 태그
   );
 }
 

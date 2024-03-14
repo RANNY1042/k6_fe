@@ -1,0 +1,19 @@
+.Hellomain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.ImgLogo{
+    width: 300px;
+    height: 150px;
+}
+
+.ch1{
+    color : rgb(0, 0, 0);
+}
+
