@@ -6,6 +6,9 @@ import HelloYellow from "./HelloYellow";
 
 
 function HelloCss () {
+
+  const apikey = process.env.REACT_APP_MV_API
+  console.log(apikey)
   return (
     <div className="Hellomain">
       <img className="ImgLogo" src={logo} alt="pusanlogo"/>

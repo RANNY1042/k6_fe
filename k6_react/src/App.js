@@ -1,8 +1,9 @@
 
 import './App.css';
-import MainHeader from './01/MainHeader';
-import Hello from './01/Hello';
-import HelloCss from './02/HelloCss';
+import { FaHome } from "react-icons/fa";
+// import HelloCss from './02/HelloCss';
+import MyDiv1 from './03/MyDiv1';
+
 
 function App() {
   return (
@@ -20,25 +21,27 @@ function App() {
                           bg-amber-300
                           '>
           <div>리액트 실습</div>
-          <div>홈</div>
+          <div><FaHome/></div>
        </header>
-       <main className='grow'>
-       <HelloCss/>
+       <main className='grow flex flex-col justify-center items-center'>
+        <MyDiv1 />
+      
        </main>
        <footer className='flex justify-center items-center
-                        h-10
-                        p-10
-                        text-xs font-thin text-white
+                        h-20
+                        text-sm font-thin text-white
                         bg-black
-                        '>                 
-        풋터풋터풋터풋터풋터풋터풋터
+                        '>                 s
+        ⓒ 2024 Parkhyeran. All rights reserved.
        </footer>
      
     </div>
     
-    //</> //프레그먼트 태그
+    
   );
 }
+
+//</> //프레그먼트 태그
 
 //화살표 함수로 작성가능
 // const App = () = > {
