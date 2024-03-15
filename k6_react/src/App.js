@@ -2,8 +2,7 @@
 import './App.css';
 import { FaHome } from "react-icons/fa";
 // import HelloCss from './02/HelloCss';
-import MyDiv1 from './03/MyDiv1';
-
+import MylistMain from './04/MylistMain';
 
 function App() {
   return (
@@ -23,15 +22,14 @@ function App() {
           <div>리액트 실습</div>
           <div><FaHome/></div>
        </header>
-       <main className='grow flex flex-col justify-center items-center'>
-        <MyDiv1 />
-      
+       <main className='grow flex justify-center items-center scroll-auto'>
+        <MylistMain />
        </main>
-       <footer className='flex justify-center items-center
+       <footer className='flex flex-col justify-center items-center
                         h-20
                         text-sm font-thin text-white
                         bg-black
-                        '>                 s
+                        '>                 
         ⓒ 2024 Parkhyeran. All rights reserved.
        </footer>
      
