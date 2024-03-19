@@ -1,8 +1,9 @@
 
 import './App.css';
 import { FaHome } from "react-icons/fa";
-// import HelloCss from './02/HelloCss';
-import MylistMain from './04/MylistMain';
+// // import HelloCss from './02/HelloCss';
+// import MylistMain from './04/MylistMain';
+import BoxOfficeTb from './05/BoxOfficeTb';
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
           <div><FaHome/></div>
        </header>
        <main className='grow flex justify-center items-center scroll-auto'>
-        <MylistMain />
+        {/* <MylistMain /> */}
+        <BoxOfficeTb />
        </main>
        <footer className='flex flex-col justify-center items-center
                         h-20
