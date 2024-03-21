@@ -4,7 +4,7 @@ import { FaArrowUp } from "react-icons/fa";
 import { FaArrowDown } from "react-icons/fa";
 import { useState } from "react"; //상태를 감지해서 변경되는 부분을 렌더링해주는 제어장치
 
-export default function BoxOfficeTb() {
+export default function BoxOfficeTb() { //영화목록 json가져오기
     const boxList = BoxOffice['boxOfficeResult']['dailyBoxOfficeList'];
     console.log(boxList)
 
@@ -13,6 +13,8 @@ export default function BoxOfficeTb() {
 
     const handleClick = (item) => {
         console.log(item)
+        //할당연산자로 state변수 변경불가 => 업데이트 함수 변경
+        //message = item 
         setMessage(item);
     }
 

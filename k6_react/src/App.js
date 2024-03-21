@@ -1,9 +1,8 @@
-
 import './App.css';
 import { FaHome } from "react-icons/fa";
-// // import HelloCss from './02/HelloCss';
-// import MylistMain from './04/MylistMain';
-import BoxOfficeTb from './05/BoxOfficeTb';
+import MyClock from './08/MyClock';
+// import Foodcard2 from "./07/Foodcard2.js";
+
 
 function App() {
   return (
@@ -23,12 +22,14 @@ function App() {
           <div>리액트 실습</div>
           <div><FaHome/></div>
        </header>
-       <main className='grow flex justify-center items-center scroll-auto'>
-        {/* <MylistMain /> */}
-        <BoxOfficeTb />
+       <main className='grow flex justify-center items-center scroll-auto mt-10'>
+{/* 
+        <Foodcard2 /> */}
+        <MyClock />
+
        </main>
        <footer className='flex flex-col justify-center items-center
-                        h-20
+                        h-20 mt-10
                         text-sm font-thin text-white
                         bg-black
                         '>                 
