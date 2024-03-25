@@ -3,8 +3,10 @@ import { FaHome } from "react-icons/fa";
 // import TrafficMain from './09/TrafficMain';
 // import MyClock from './08/MyClock';
 // import Foodcard2 from "./07/Foodcard2.js";
-import RefVal from './10/RefVal';
-import RefInput from './10/RefInput';
+// import RefVal from './10/RefVal';
+// import RefInput from './10/RefInput';
+import BoxOfficeDate from './10_1/BoxOfficeDate';
+import TailInput from './UI/TailInput';
 
 
 function App() {
@@ -31,7 +33,8 @@ function App() {
         {/* <MyClock /> */}
         {/* <TrafficMain /> */}
         {/* < RefVal /> */}
-        <RefInput />
+        {/* <RefInput /> */}
+        <BoxOfficeDate />
 
        </main>
        <footer className='flex flex-col justify-center items-center
