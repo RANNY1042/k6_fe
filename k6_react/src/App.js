@@ -1,7 +1,10 @@
 import './App.css';
 import { FaHome } from "react-icons/fa";
-import MyClock from './08/MyClock';
+// import TrafficMain from './09/TrafficMain';
+// import MyClock from './08/MyClock';
 // import Foodcard2 from "./07/Foodcard2.js";
+import RefVal from './10/RefVal';
+import RefInput from './10/RefInput';
 
 
 function App() {
@@ -22,10 +25,13 @@ function App() {
           <div>리액트 실습</div>
           <div><FaHome/></div>
        </header>
-       <main className='grow flex justify-center items-center scroll-auto mt-10'>
+       <main className='grow flex justify-center scroll-auto mt-10'>
 {/* 
         <Foodcard2 /> */}
-        <MyClock />
+        {/* <MyClock /> */}
+        {/* <TrafficMain /> */}
+        {/* < RefVal /> */}
+        <RefInput />
 
        </main>
        <footer className='flex flex-col justify-center items-center
