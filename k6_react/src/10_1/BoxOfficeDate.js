@@ -50,9 +50,7 @@ export default function BoxOfficeDate() { //영화목록 json가져오기
     .then(data => console.log(data.boxOfficeResult.dailyBoxOfficeList))
     .catch(err => console.log(err))
   }
-
-
-  
+ 
 //   const getDataFetch = (url) => {
 //     fetch(url)
 //     .then(resp => resp.json())

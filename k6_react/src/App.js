@@ -5,8 +5,12 @@ import { FaHome } from "react-icons/fa";
 // import Foodcard2 from "./07/Foodcard2.js";
 // import RefVal from './10/RefVal';
 // import RefInput from './10/RefInput';
-import BoxOfficeDate from './10_1/BoxOfficeDate';
-import TailInput from './UI/TailInput';
+// import BoxOfficeDate from './10_1/BoxOfficeDate';
+// import TailInput from './UI/TailInput';
+// import GalleryCard from './11/GalleryCard'
+// import GalleryMain from './11/GalleryMain'
+import FestivalMain from './12/FestivalMain';
+// import FestivalCard from './12/FestivalCard';
 
 
 function App() {
@@ -34,7 +38,11 @@ function App() {
         {/* <TrafficMain /> */}
         {/* < RefVal /> */}
         {/* <RefInput /> */}
-        <BoxOfficeDate />
+        {/* <BoxOfficeDate /> */}
+        {/* <GalleryCard /> */}
+        {/* <GalleryMain /> */}
+        <FestivalMain />
+        {/* <FestivalCard /> */}
 
        </main>
        <footer className='flex flex-col justify-center items-center
