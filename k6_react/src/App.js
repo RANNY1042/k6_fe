@@ -1,21 +1,29 @@
 import './App.css';
 import { FaHome } from "react-icons/fa";
 // import TrafficMain from './09/TrafficMain';
-// import MyClock from './08/MyClock';
+import MyClock from './08/MyClock';
 // import Foodcard2 from "./07/Foodcard2.js";
 // import RefVal from './10/RefVal';
 // import RefInput from './10/RefInput';
-// import BoxOfficeDate from './10_1/BoxOfficeDate';
+import BoxOfficeDate from './10_1/BoxOfficeDate';
 // import TailInput from './UI/TailInput';
 // import GalleryCard from './11/GalleryCard'
-// import GalleryMain from './11/GalleryMain'
-// import FestivalMain from './12/FestivalMain';
+import GalleryMain from './11/GalleryMain'
+import FestivalMain from './12/FestivalMain';
 // import FestivalCard from './12/FestivalCard';
-import RouteMian from './13/RouteMain'
+import Lotto2 from './06/Lotto2'
+// import RouteMian from './13/RouteMain'
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 
 
 function App() {
+
+  // const Navigator = useNavigate();
+
   return (
+    <BrowserRouter>
 
     <div className='flex flex-col 
                     w-full max-w-screen-xl
@@ -30,7 +38,15 @@ function App() {
                           bg-amber-300
                           '>
           <div>리액트 실습</div>
-          <div><FaHome/></div>
+          <Link to='/lotto'>로또</Link>
+          <Link to='/box'>박스오피스</Link>
+          <Link to='/Gallery'>갤러리</Link>
+          <Link to='/festival'>페스티벌</Link>
+          
+          
+          
+          <div><Link to ='/'><FaHome /></Link></div>
+
        </header>
        <main className='grow flex justify-center scroll-auto mt-10'>
   {/* 
@@ -44,8 +60,16 @@ function App() {
         {/* <GalleryMain /> */}
         {/* <FestivalMain /> */}
         {/* <FestivalCard /> */}
-        <RouteMian />
-       
+        {/* <RouteMian /> */}
+        
+        <Routes>
+        <Route path='/' element={<MyClock />} />
+        <Route path='/lotto' element={<Lotto2 />} />
+        <Route path='/box' element={<BoxOfficeDate />} />
+        <Route path='/Gallery' element={<GalleryMain />} />
+        <Route path='/festival' element={<FestivalMain />} />
+
+        </Routes>
 
        </main>
        <footer className='flex flex-col justify-center items-center
@@ -57,7 +81,7 @@ function App() {
        </footer>
      
     </div>
-    
+    </BrowserRouter>
     
   );
 }

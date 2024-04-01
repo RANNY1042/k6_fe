@@ -13,8 +13,8 @@ const Navigator = useNavigate();
         
         <ul className="w-11/12 flex justify-center">
             <li><Link to='/'>홈</Link></li>
-            <li><Link to='/page1'>page1</Link></li>
-            <li><Link to='/page2'>page2</Link></li>
+            <li><Link to='/page1/오렌지'>page1</Link></li>
+            <li><Link to='/page2?item1=커피&item2=주스'>page2</Link></li>
         </ul>
 
     <div className="w-11/12 flex justify-center items-center">       
@@ -27,13 +27,13 @@ const Navigator = useNavigate();
     <TailButton 
         caption="page1"
         color="blue"
-        handleClick={()=>{Navigator("/page1")}} />
+        handleClick={()=>{Navigator("/page1/포도")}} />
 
 
     <TailButton 
         caption="page2"
         color="blue"
-        handleClick={()=>{Navigator("/page2")}}
+        handleClick={()=>{Navigator("/page2?item1=사과&item2=바나나")}}
     />
     
     </div>
