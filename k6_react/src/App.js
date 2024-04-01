@@ -9,8 +9,9 @@ import { FaHome } from "react-icons/fa";
 // import TailInput from './UI/TailInput';
 // import GalleryCard from './11/GalleryCard'
 // import GalleryMain from './11/GalleryMain'
-import FestivalMain from './12/FestivalMain';
+// import FestivalMain from './12/FestivalMain';
 // import FestivalCard from './12/FestivalCard';
+import RouteMian from './13/RouteMain'
 
 
 function App() {
@@ -32,7 +33,7 @@ function App() {
           <div><FaHome/></div>
        </header>
        <main className='grow flex justify-center scroll-auto mt-10'>
-{/* 
+  {/* 
         <Foodcard2 /> */}
         {/* <MyClock /> */}
         {/* <TrafficMain /> */}
@@ -41,8 +42,10 @@ function App() {
         {/* <BoxOfficeDate /> */}
         {/* <GalleryCard /> */}
         {/* <GalleryMain /> */}
-        <FestivalMain />
+        {/* <FestivalMain /> */}
         {/* <FestivalCard /> */}
+        <RouteMian />
+       
 
        </main>
        <footer className='flex flex-col justify-center items-center
